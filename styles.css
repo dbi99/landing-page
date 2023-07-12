@@ -1,0 +1,68 @@
+/* the comments in this code are used to explain
+whats happening in great detail and may include more
+information than would normally be necessary */
+
+/* sets margin and padding to zero to fill the background
+with colour, sets the font*/
+body {
+margin: 0;
+padding: 0;
+font-family: "hero", sans-serif;
+box-sizing: border-box;
+
+}
+
+/* give the header a colour */
+header {
+    background-color: #1f2937;
+
+}
+
+nav {
+    width:820px;
+    height:60px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 23px;
+    font-weight: 900;
+    color: #fff;
+}
+
+/* changes links beside eachother
+rather than ontop */
+nav .links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* removes bullet point from list
+changes font colour  and adds border*/
+nav li {
+    list-style: none;
+    color: #fff;
+    padding: 7px 25px;
+    margin: 0 10x;
+    border: 1px solid #fff;
+}
+
+/* removes underline and inherits li colour*/
+nav a {
+text-decoration: none;
+color: inherit;
+}
+
+/* optional swaps front and background
+colour when mouse hovers over link  */
+nav li:hover {
+transform: translate(2px)
+translate(2px);
+border: none;
+color: #1f2937;
+background-color: #fff;
+
+}
