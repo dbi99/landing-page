@@ -66,3 +66,55 @@ color: #1f2937;
 background-color: #fff;
 
 }
+
+/* cover section*/
+
+/* adds background colour */
+.cover {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+}
+
+/*  changes h1 colour to an  white*/
+h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+/* changes p colour to an off white for contrast*/
+.cover-left p {
+    color: #ccc;
+}
+
+
+.cover-button{
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "hero", sans-serif;
+    color: #fff;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 25px;
+}
+
+.cover-button:hover {
+    color: #fff;
+    background-color: green;
+    transform: translateY(-2px);
+    box-shadow: -1px 8px 16px 0px #11171f;
+  }
